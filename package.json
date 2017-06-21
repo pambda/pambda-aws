@@ -1,0 +1,36 @@
+{
+  "name": "pambda-aws",
+  "version": "0.0.1",
+  "description": "Pambda for using AWS services",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/pambda/pambda-aws/issues"
+  },
+  "dependencies": {
+    "lazy-aws-service": "0.0.1"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.74.0",
+    "pambda": "0.0.2",
+    "tape": "^4.6.3"
+  },
+  "homepage": "https://github.com/pambda/pambda-aws",
+  "keywords": [
+    "aws",
+    "lambda",
+    "pambda"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pambda/pambda-aws.git"
+  },
+  "scripts": {
+    "test": "tape test/test*"
+  },
+  "files": [
+    "README.md",
+    "lib/"
+  ]
+}
