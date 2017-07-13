@@ -1,0 +1,13 @@
+{
+  "name": "pambda-aws-example",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "pambda": "0.0.2",
+    "pambda-aws": "file:../pambda-aws-0.0.1.tgz"
+  },
+  "scripts": {
+    "update": "npm run zip && aws lambda update-function-code --function-name sandbox --zip-file fileb://lambda.zip --region ap-northeast-1",
+    "zip": "zip -u ./lambda.zip -r index.js node_modules -x \\*.md || test $? -eq 12"
+  }
+}
