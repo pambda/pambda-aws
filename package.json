@@ -27,6 +27,7 @@
     "url": "git+https://github.com/pambda/pambda-aws.git"
   },
   "scripts": {
+    "prepare": "npm test",
     "test": "tape test/test*"
   },
   "files": [
