@@ -7,6 +7,7 @@
     "url": "https://github.com/pambda/pambda-aws/issues"
   },
   "dependencies": {
+    "lambda-callbackify": "0.0.1",
     "lazy-aws-service": "0.0.1"
   },
   "devDependencies": {
