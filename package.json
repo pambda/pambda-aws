@@ -8,11 +8,11 @@
   },
   "dependencies": {
     "lambda-callbackify": "0.0.1",
-    "lazy-aws-service": "0.0.1"
+    "lazy-aws-service": "0.0.2"
   },
   "devDependencies": {
-    "aws-sdk": "^2.210.0",
-    "pambda": "0.0.2",
+    "aws-sdk": "^2.226.1",
+    "pambda": "0.0.3",
     "tape": "^4.9.0"
   },
   "homepage": "https://github.com/pambda/pambda-aws",
