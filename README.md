@@ -49,6 +49,9 @@ Since added properties are delayed initialized, instances of unused services wil
 - `options.serviceConfigs`
     - An object to configure for each AWS services. Properties of this object set into properties of `AWS.config`.
     - This options is useful to specify a region for some services.
+- `options.xray`
+    - A boolean value whether decide to use [aws-xray-sdk](https://www.npmjs.com/package/aws-xray-sdk).
+    - If `process.env.AWS_XRAY_DAEMON_ADDRESS` is undefined, X-Ray is not used even if this option enabled.
 
 ## License
 
