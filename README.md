@@ -1,20 +1,20 @@
 # pambda-aws
 
-Pambda for using AWS services.
+[Pambda](https://github.com/pambda/pambda) for using AWS services.
 
 ## Installation
 
 ```
-npm i pambda-aws -S
+npm i pambda-aws
 ```
 
 ## Usage
 
 ``` javascript
-import { compose, createLambda } from 'pambda';
-import { aws } from 'pambda-aws';
+const { compose, createLambda } = require('pambda');
+const { aws } = require('pambda-aws');
 
-export const handler = createLambda(
+exports.handler = createLambda(
   compose(
     aws({
       serviceConfigs: {
